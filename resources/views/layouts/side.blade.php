@@ -13,7 +13,7 @@
     </div>
     {{--
     <div class="menu-inner-shadow"></div>  --}}
-    <div class="justify-content-between">
+    <div class="">
         <ul class="menu-inner py-1">
             <!-- Dashboards -->
             <li class="menu-item active open">
@@ -27,16 +27,15 @@
             <li class="menu-item">
                 <a href="" class="menu-link menu-toggle">
                     <i class="menu-icon tf-icons bx bx-layout"></i>
-                    <div class="text-truncate" data-i18n="Layouts">Arsip</div>
+                    <div class="text-truncate" data-i18n="Arsip">Arsip</div>
                 </a>
             </li>
-
             {{--  Settings  --}}
             <!-- Layouts -->
             <li class="menu-item">
                 <a href="" class="menu-link menu-toggle">
                     <i class="menu-icon tf-icons bx bx-layout"></i>
-                    <div class="text-truncate" data-i18n="Layouts">Kalender</div>
+                    <div class="text-truncate" data-i18n="Kalender">Kalender</div>
                 </a>
             </li>
             <li class="menu-item">
