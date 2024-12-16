@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function index(){
         //Code
-        return view('auth.index');
+        return view('Home');
     }
     //
 }
