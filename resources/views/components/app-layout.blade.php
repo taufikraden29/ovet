@@ -15,9 +15,11 @@
                             {{ $slot }}
                         </div>
                     </div>
-                    <!-- Core JS -->
-                    <!-- build:js assets/vendor/js/core.js -->
-                    <x-footer></x-footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <x-footer></x-footer>
 </body>
 
 </html>
