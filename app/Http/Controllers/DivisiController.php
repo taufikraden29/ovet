@@ -11,7 +11,7 @@ class DivisiController extends Controller
     public function index()
     {
         $divisi = Divisi::all();
-        return view('divisi.index', compact('divisi'));
+        return view('dashboard.index', compact('divisi'));
     }
 
     // Menyimpan divisi baru

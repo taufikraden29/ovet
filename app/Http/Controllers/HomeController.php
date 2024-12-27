@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function __invoke()
-    {
-        return view('Home');
 
+    public function index()
+    {
+        return view('home');
     }
     //
 }
